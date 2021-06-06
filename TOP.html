@@ -27,6 +27,8 @@
                 server = special computer connected directly to the internet used to store webpages
             </p>
             <h3>Knowledge Check</h3>
+<button type="button" class="collapsible">Open Collapsible</button>
+<div class="knowledge-check1">
             <p><ul>
                 <li>What is a network?</li>
                 Set of computers connected by 1+ routers<br><br>
@@ -58,7 +60,7 @@
                 Brave<br><br>
                 <li>In your own words, explain what happens when you run a search on google.com.</li>
                 see DNS request<br><br>
-            </ul></p>
+            </ul></p></div>
         <h2>Installations</h2>
         <p>
             Not much to say here but for installations themsevles, it set me up well. I learned a lot of command line basics though.
@@ -96,8 +98,8 @@
             <li>arguments are a file (.txt) or a directory</li>
         </ul></p>
         <h3>Knowledge Check</h3>
-<button type="button" class=collapsible>Open Collapsible</button>
-<div class="content2"></div>
+<button type="button" class="collapsible">Open Collapsible</button>
+<div class="knowledge-check1">
         <p><ul>
             <li>What is the command line?</li>
             way to navigate computer<br><br>
@@ -124,8 +126,12 @@
             $mv<br><br>
         </ul></p></div>
         <h2>Git Basics</h2>
+        <p>
+        Really important info: When saving from local file to GitHub respository, make sure to enter the file of the respository you cloned. For example, if you are in coderjessica/TOP and that is where you clone your respository named "TOP", you now need to enter into coderjessica/TOP/TOP to add and push files to the remote repository.
+        </p>
         <h3>Knowledge Check</h3>
         <h2>The Front End</h2>
+        <p>
         <strong>HTML:</strong><br>
         <div class="opening">&lt;p&gt;</div><div class="content">My butt stinks</div><div class="closing">&lt;/p&gt;</div><br>
         <div class="opening">opening tag</div>
@@ -141,11 +147,77 @@
         <div class="content">property</div>
         <div class="closing">property value</div><br>
         "color: red;" declaration
+        </p>
         <h3>Knowledge Check Intro to Front End</h3>
+        <p>
         <br>
         <br>
+        </p>
         <h3>HTML and CSS Basics</h3>
-        This is the section where I completed freeCodeCamp's interactive tutorial "Responsive Web Design" which I learned, honestly, way too much to put here. Good thing I have Google.
+        <p>
+        This is the section where I completed freeCodeCamp's interactive tutorial "Responsive Web Design" which I learned, honestly, way too much to put here. Good thing I have Google.<br></p>
+        <h4>Basic HTML</h4>
+        <p><ul>
+            <li>A tag: &lt;p&gt;</li>
+            <li>An element: &lt;p&gt;My butt stinks&lt;/p&gt; element</li>
+            <li>Coder comment: &lt;!--comment--&gt;</li>
+            <li>div element (division) is a general purpose container for other elements</li>
+            <li>Add image/photo/pic: &lt;img src="computer/photos/example.jpg" alt="An example for my notes, no image selected"&gt;</li>
+            <li>Link to external page: anchor element &lt;a href="example.com" target="_blank"&gt;example.com&lt;/a&gt; blank target will open external page in a new tab</li>
+            <li>Link to internal section on a webpage: &lt;a href="#knowledge-check"&gt;Knowledge Check&lt;/a&gt;</li>
+                <ul><li>&lt;h3 id="knowledge-check"&gt;Knowledge Check&lt;/h3&gt;</li>
+                <li>href attribute should be #whatever-id-you-want-to-use and id attribute should be added to whichever element you want to jump to, using the same #whatever-id-you-want-to-use</li></ul>
+            <li>Dead link: if leaving an href attribute blank to add a future link, use # &lt;a href="#"&gt;Empty Link&lt;/a&gt;</li>
+            <li>To make an image a link: &lt;a href="#"&gt;&lt;img src="examplephoto.com/example" alt="example"&gt;&lt;/a&gt;</li>
+            <li>Lists: &lt;li&gt;around entire list&lt;/li&gt;</li>
+                <ul><li>&lt;ol&gt;for an ordered (numbered) list item&lt;/ol&gt;</li>
+                <li>&lt;ul&gt;for an unordered (bulleted) list&lt;/ul&gt;</li></ul>
+            <li>Form: &lt;form action="url"&gt;input and buttons go here&lt;/form&gt;</li>
+                <ul><li>form action could point to another web site (example.com/example.html) or a file within a website (example.html)</li></ul>
+            <li>Inputs: &lt;input type="text" placeholder="placeholder text"&gt;</li>
+                <ul><li>This would create a one-line text box, for example, used for username/password which would be the placeholder text</li>
+                <li>can make an input required &lt;input type="text" required&gt;</li></ul>
+            <li>Button: &lt;button type="submit"&gt;this button would submit username/password&lt;/button&gt;</li>
+            <li>Radio button: &lt;label for="option1"&gt; &lt;input id="option1" type="radio" name="option1-option2"&gt;Option1&lt;/label&gt;
+            &lt;label for="option2"&gt; &lt;input id="option2" type="radio" name="option1-option2"&gt;Option2&lt;/label&gt;</li>
+                <ul><li>Each button should be under it's own label and all related buttons should have the same name to create a group</li>
+                <li>By creating the group, selecting one radio button will deselect other radio buttons in the group (difference between button to select one thing and buttons to select multiple like check all that apply)</li>
+                <li>To be automatically checked (like country would auto choose USA): &lt;input type="radio" name="option1-option2 checked&gt;</li></ul>
+            <li>Checkboxes: follows the same rules as the radio buttons &lt;label for="option1"&gt;&lt;input id="option1" type="checkbox" name="options"&gt;Option1&lt;/label&gt;&lt;label for="option2"&gt;&lt;input id="option2" type="checkbox" name="options"&gt;Option2&lt;/label&gt;</li>
+            </ul></p>
+            
+        <h4>Basic CSS</h4>
+        <p><ul>
+            <li></li>
+        
+        </ul></p>
         <h3>Knowledge Check HTML and CSS Basics</h3>
+        <p>
+
+        </p>
+
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }           
+            ( function( $ ) {
+            $( document ).ready( function(){
+                $('.panel-collapse').removeClass('in');
+                $('.panel-title > a').addClass('collapsed');
+            });
+            })( jQuery );
+        </script>
+            
 </body>
 </html>
