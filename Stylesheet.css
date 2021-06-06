@@ -1,0 +1,26 @@
+header {
+    
+}
+body {
+    background-color: #262626;
+    color: #e6e6e6;
+}
+h1 {
+    font-size: 36px;
+}
+h2 {
+    color: #cc99ff;
+    font-size: 26px;
+}
+.opening {
+    color: #00bfff;
+    display: inline;
+}
+.content {
+    color: yellow;
+    display: inline;
+}   
+.closing {
+    color: #ff0000;
+    display: inline;
+}
