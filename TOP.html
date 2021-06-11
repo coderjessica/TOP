@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>What I've Learned from TOP</title>
+    <link rel="stylesheet" href="Stylesheet.css" />
+</head>
+
+<body>
+
+    <header class="header1">
+        <h1>Everything I've Learned from <a href="https://theodinproject.com/">The Odin Project</a></h1>
+        <hr>
+    </header>
+    <div class="intro">
+        <h2>Introduction</h2>
+        <p>
+            There was a <i>lot</i> to learn here for me. My brain was overloaded with information. Thankfully, I didn't
+            have a job at the time so despite my brain being exhausted learning this halfway through the day, I could
+            just keep pushing myself.<br>
+        <ul>
+            <li>Front-end: HTML, CSS, JavaScript</li>
+            <li>Back-end: Java, Python, Ruby</li>
+            <li>Full-Stack: ALL of the above</li>
+        </ul>
+        </p>
+    </div>
+    <h3>The Internet</h3>
+    <p>
+        I have a network with a router -> router connects to modem -> modem runs through telephone lines, turning
+        network information into information mangeable by telephone infrastructure (and vice versa)
+        <br>
+        ISP = company that manages special routers than can access other ISPs routers
+        <br>
+        computer -> router -> modem -> telephone line -> ISP (mine) -> ISP (other) -> telephone line -> their modem ->
+        their router -> their computer with info (server)
+        <br>
+        server = special computer connected directly to the internet used to store webpages
+    </p>
+    <h3>Knowledge Check</h3>
+    <button type="button" class="collapsible">Open Collapsible</button>
+    <div class="knowledge-check1">
+        <p>
+        <ul>
+            <li>What is a network?</li>
+            Set of computers connected by 1+ routers<br><br>
+            <li>What is the internet?</li>
+            highway connecting routers and servers<br><br>
+            <li>What is an IP address?</li>
+            secret code tied to computer<br><br>
+            <li>What is a router?</li>
+            box that computers are tied to to access the internet<br><br>
+            <li>What is an ISP?</li>
+            company providing internet storage<br><br>
+            <li>What are packets and how are they used to transfer data?</li>
+            used to transfer something like a pic in little tiny bits from the internet to client<br><br>
+            <li>What is a client?</li>
+            computer accessing the internet<br><br>
+            <li>What is a server?</li>
+            computer conneccted directly to internet that stores information<br><br>
+            <li>What is a web page?</li>
+            static page displaying data<br><br>
+            <li>What is a web server?</li>
+            group of connected webpages<br><br>
+            <li>What is a web browser?</li>
+            software used to navigate web servers and webpages<br><br>
+            <li>What is a search engine?</li>
+            webpages/servers used to browse or find other webpages/servers<br><br>
+            <li>What is a DNS request?</li>
+            type in a domain name, computer doesn't have it in cache, DNS goes around asking servers who has it till its
+            narrowed down and IP is found<br><br>
+            <li>What browser are you currently using?</li>
+            Brave<br><br>
+            <li>In your own words, explain what happens when you run a search on google.com.</li>
+            see DNS request<br><br>
+        </ul>
+        </p>
+    </div>
+    <hr width="85%">
+    <div class="intro">
+    <h2>Installations</h2>
+    <p>
+        Not much to say here but for installations themsevles, it set me up well. I learned a lot of command line basics
+        though.
+    </p>
+    </div>
+    <h3>Command Line Basics:</h3>
+    <p>
+    <ul>
+        <li>$pwd where am I</li>
+        <li>$ls list files</li>
+        -a all files including hidden<br>
+        -l long form (with info)<br>
+        -lh readable sizes<br>
+        -lhs readable sizes plus sort by size<br>
+        -lt reverse sort - can be used with others
+        <li>$ln hard link</li>
+        -s symbolic link (symlink)
+        <li>$cd</li> takes me home
+        $cd .. navigate up
+        <li>$mkdir creates directory</li>
+        -p creates nested directories<br>
+        -v print the results of mkdir
+        <li>$cp copy a to b (b is a directory or file) OR</li>
+        multiple copies a b to c (c is a directory><br>
+        -v print the results of cp<br>
+        -Rv copy directory contents to another directory<br>
+        -f force overwrite<br>
+        -i confirm overwrite?
+        <li>$rm delete file</li>
+        <li>$mv move file</li>
+        <li>| pipeline command to chain commands</li>
+        <li>$rmdir remove directory if empty</li>
+        <li>$rm -r remove directory if not empty</li>
+        <li>tab completion in command line</li>
+        <li>a flag is something like -a or -v</li>
+        <li>a directory is a file folder</li>
+        <li>arguments are a file (.txt) or a directory</li>
+    </ul>
+    </p>
+    <h3>Knowledge Check</h3>
+    <button type="button" class="collapsible">Open Collapsible</button>
+    <div class="knowledge-check1">
+        <p>
+        <ul>
+            <li>What is the command line?</li>
+            way to navigate computer<br><br>
+            <li>How do you open the command line on your computer?</li>
+            ctrl+alt+t<br><br>
+            <li>How can you navigate to a particular directory?</li>
+            $cd+directory<br><br>
+            <li>Where will cd on its own navigate you to?</li>
+            home<br><br>
+            <li>Where will cd .. navigate you to?</li>
+            up<br><br>
+            <li>How do you display the name of the directory you are currently in?</li>
+            $pwd<br><br>
+            <li>How do you display the contents of the directory you are currently in?</li>
+            $ls<br><br>
+            <li>How do you create a new directory?</li>
+            $mkdir+name<br><br>
+            <li>How do you create a new file?</li>
+            $touch+name<br><br>
+            <li>How do you destroy a directory or file?</li>
+            directory $rmdir or $rm -r<br><br>
+            file $rm<br><br>
+            <li>How do you rename a directory or file?</li>
+            $mv<br><br>
+        </ul>
+        </p>
+    </div>
+    <hr width="85%">
+    <div class="intro">
+    <h2>Git Basics</h2>
+    <p>
+        Really important info: When saving from local file to GitHub respository, make sure to enter the file of the
+        respository you cloned. For example, if you are in coderjessica/TOP and that is where you clone your respository
+        named "TOP", you now need to enter into coderjessica/TOP/TOP to add and push files to the remote repository.
+    </p>
+    </div>
+    <h3>How to Update GitHub from Local File</h3>
+    <p>
+    <ol>
+        <li>check git status, see changes not staged for commit, add with "git add ." or "git add example.html" - should
+            be green in git status</li>
+        <li>git commit -m "notes on what I changed - git status will now say your branch is ahead by one and working
+            tree is clean</li>
+        <li>git push origin main then git status should say branch is up to date and working tree clean</li>
+        <li>check github</li>
+    </ol>
+    View photo example in coderjessica/Pictures/examplegit.png - photo was taken after step 1 above.<br>
+    If there are no files to be committed in the first place, copy them from the folder they are in to the folder you
+    are in, coderjessica/TOP/TOP
+    </p>
+    <h3>Knowledge Check</h3>
+    <hr width="85%">
+    <div class="intro">
+    <h2>The Front End</h2>
+    </div>
+    <p>
+        <strong>Definitions:</strong>
+    <ul>
+        <li>Attribute: additional settings in HTML code added to a tag, usually example="example"</li>
+    </ul></p>
+
+<div id="box-container">
+    <div id="box1">
+        <strong>HTML:</strong><br>
+        <p class="opening">&lt;p&gt;</p>
+        <p class="content">My butt stinks</p>
+        <p class="closing">&lt;/p&gt;</p><br>
+        <p class="opening">opening tag</p>
+        <p class="content">content</p>
+        <p class="closing">closing tag</p><br>
+        &lt;p&gt;My butt stinks&lt;/p&gt; element<br>
+        Empty elements do not need closed, like &lt;br&gt;
+    </div>
+    <div id="box2">
+        <strong>CSS:</strong><br>
+        <p class="opening">p</p> &lbrace;<br>
+        <p class="content">color</p>: <p class="closing">red</p>;<br>
+        &rbrace;<br>
+        <p class="opening">selector</p>
+        <p class="content">property</p>
+        <p class="closing">property value</p><br>
+        "color: red;" declaration
+    </div>
+</div>
+    <h3>Knowledge Check Intro to Front End</h3>
+    <p>
+        <br>
+        <br>
+    </p>
+    <h3>HTML and CSS Basics</h3>
+    <p>
+        This is the section where I completed freeCodeCamp's interactive tutorial "Responsive Web Design" which I
+        learned, honestly, way too much to put here. Good thing I have Google.<br></p>
+    <h4>- Basic HTML</h4>
+    <p>
+    <ul>
+        <li>A tag: &lt;p&gt;</li>
+        <li>An element: &lt;p&gt;My butt stinks&lt;/p&gt; element</li>
+        <li>Coder comment: &lt;!--comment--&gt;</li>
+        <li>div element (division) is a general purpose container for other elements</li>
+        <li>Add image/photo/pic: &lt;img src="computer/photos/example.jpg" alt="An example for my notes, no image
+            selected"&gt;</li>
+        <ul>
+            <li>Note: alt tag is unnecessary for decorative images like background, it is used for accessibility</li>
+        </ul>
+        <li>Link to external page: anchor element &lt;a href="example.com" target="_blank"&gt;example.com&lt;/a&gt;
+            blank target will open external page in a new tab</li>
+        <li>Link to internal section on a webpage: &lt;a href="#knowledge-check"&gt;Knowledge Check&lt;/a&gt;</li>
+        <ul>
+            <li>&lt;h3 id="knowledge-check"&gt;Knowledge Check&lt;/h3&gt;</li>
+            <li>href attribute should be #whatever-id-you-want-to-use and id attribute should be added to whichever
+                element you want to jump to, using the same #whatever-id-you-want-to-use</li>
+        </ul>
+        <li>Dead link: if leaving an href attribute blank to add a future link, use # &lt;a href="#"&gt;Empty
+            Link&lt;/a&gt;</li>
+        <li>To make an image a link: &lt;a href="#"&gt;&lt;img src="examplephoto.com/example"
+            alt="example"&gt;&lt;/a&gt;</li>
+        <li>Lists: &lt;li&gt;around entire list&lt;/li&gt;</li>
+        <ul>
+            <li>&lt;ol&gt;for an ordered (numbered) list item&lt;/ol&gt;</li>
+            <li>&lt;ul&gt;for an unordered (bulleted) list&lt;/ul&gt;</li>
+        </ul>
+        <li>Form: &lt;form action="url"&gt;input and buttons go here&lt;/form&gt;</li>
+        <ul>
+            <li>form action could point to another web site (example.com/example.html) or a file within a website
+                (example.html)</li>
+        </ul>
+        <li>Inputs: &lt;input type="text" placeholder="placeholder text"&gt;</li>
+        <ul>
+            <li>This would create a one-line text box, for example, used for username/password which would be the
+                placeholder text</li>
+            <li>can make an input required &lt;input type="text" required&gt;</li>
+        </ul>
+        <li>Button: &lt;button type="submit"&gt;this button would submit username/password&lt;/button&gt;</li>
+        <li>Radio button: &lt;label for="option1"&gt; &lt;input id="option1" type="radio"
+            name="option1-option2"&gt;Option1&lt;/label&gt;
+            &lt;label for="option2"&gt; &lt;input id="option2" type="radio"
+            name="option1-option2"&gt;Option2&lt;/label&gt;</li>
+        <ul>
+            <li>Each button should be under it's own label and all related buttons should have the same name to create a
+                group</li>
+            <li>By creating the group, selecting one radio button will deselect other radio buttons in the group
+                (difference between button to select one thing and buttons to select multiple like check all that apply)
+            </li>
+            <li>To be automatically checked (like country would auto choose USA): &lt;input type="radio"
+                name="option1-option2 checked&gt;</li>
+        </ul>
+        <li>Checkboxes: follows the same rules as the radio buttons &lt;label for="option1"&gt;&lt;input id="option1"
+            type="checkbox" name="options"&gt;Option1&lt;/label&gt;&lt;label for="option2"&gt;&lt;input id="option2"
+            type="checkbox" name="options"&gt;Option2&lt;/label&gt;</li>
+    </ul>
+    </p>
+
+    <h4>- Basic CSS</h4>
+    <p>
+    <ul>
+        <li>background-repeat: no-repeat; background-attachment: fixed;</li>
+
+    </ul>
+    </p>
+
+    <h4>- Applied Visual Design</h4>
+    <p>
+    <ul>
+        <li></li>
+
+    </ul>
+    </p>
+
+    <h4>- Applied Accessibility</h4>
+    <p>
+    <ul>
+        <li>Use alt text on images</li>
+        <ul>
+            <li>Don't use alt text on decorative images like a background</li>
+        </ul>
+        <li>Use headings to show hierarchical relationships of content, not just to make font bigger (do that with CSS,
+            ya lazy!)</li>
+        <li>Main element: the main element is used to wrap around the main content. When users are using accessibility
+            features, they can jump right to this information.</li>
+        <li>&lt;div&gt; groups content, &lt;section&gt; groups related content, &lt;article&gt; groups independent,
+            self-containted content</li>
+        <li>Use &lt;nav&gt; to wrap the main navigation links</li>
+        <li>Use &lt;header&gt; and &lt;footer&gt; for accessibility</li>
+        <li>Use &lt;audio id="examplename" controls&gt; to wrap audio for accessibility</li>
+        <li>Use &lt;figure&gt; and &lt;figcaption&gt; for figures such as an image or chart.</li>
+        <li>Use &lt;fieldset&gt; around a form like a set of radio buttons for accessibility and wrap the title/question
+            in &lt;legend&gt;</li>
+        <li>Date picker: &lt;input type="date" id="pickdate" name="date"&gt; along with &lt;
+            for="pickdate&gt;&lt;/label&gt; (second one goes above the first one)</li>
+        <li>Use &lt;time datetime="2021-01-31"&gt;last Wednesday OR Wednesday, January 1&lt;/time&gt; for accessibility
+        </li>
+        <li>Use CSS to hide a chart made for a screenreader only</li>
+        <ul>
+            <li>.sr-only &lbrace;position: absolute; left: -10000px; width: 1px; height: 1px; top: auto; overflow:
+                hidden;&rbrace;</li>
+        </ul>
+        <li></li>
+
+
+    </ul>
+    </p>
+
+    <h4>- Responsive Web Design Principles</h4>
+    <p>
+    <ul>
+    <li>If viewing on a different device like phone: @media (max-width OR min-height: 300px) {p {font-size:}} </li>
+    <li>Use CSS codes max-width: 100%; and hieght: auto; to make sure an imagine is never wider than the container is is in and keep its aspect ratio</li>
+    <li>The simplest way to make your images properly appear on HR displays, is to use half the pixels for width and height of the image. For example, a 500x500 image should use height: 100px; and width: 100px;</li>
+    <li>Viewport units are relative to the viewport dimensions of a device: vw (width), vh (vh), vmin (minimum), vmax (maximum). body {width: 30vw;} would be 30% of the viewport's width.</li>
+    </ul>
+    </p>
+
+    <h4>- CSS Flexbox</h4>
+    <p>
+    <ul>
+    <li>To make divs (or whatever) flexible, add display: flex; to the style</li>
+    <li>Make a row:</li>
+    <li>Make a column:</li>
+    <li>Justify-content: center, flex-start, flex-end, space-between, space-around, space-evenly</li>
+    <li></li>
+
+    </ul>
+    </p>
+
+    <h4>- CSS Grid</h4>
+    <p>
+    <ul>
+        <li></li>
+
+    </ul>
+    </p>
+
+    <h3>Knowledge Check HTML and CSS Basics</h3>
+    <p>
+
+    </p>
+
+    <footer>
+        This web page is a part of coderjessica's efforts in learning to code. If any information is misstated here,
+        please feel free to contact her.</footer>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+        (function ($) {
+            $(document).ready(function () {
+                $('.panel-collapse').removeClass('in');
+                $('.panel-title > a').addClass('collapsed');
+            });
+        })(jQuery);
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+.header1 {
+    text-align: center;
+    background-color: hsl(275,23%,28%);
+    color: hsl(0, 0%, 90%);
+    margin: auto;
+    font-size: 12px;
+    padding: 30px;
+}
+.intro {
+    background-color: hsl(280, 3%, 18%);
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+}
+body {
+    background-color: hsl(280, 3%, 12%);
+    color: hsl(0, 0%, 90%);
+}
+h1 {
+    font-size: 36px;
+}
+h2 {
+    color: hsl(194, 28%, 44%);
+    font-size: 26px;
+}
+h3 {
+    color: #e28d9a;
+}
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.opening {
+    color: #00bfff;
+    display: inline;
+}
+.content {
+    color: yellow;
+    display: inline;
+}   
+.closing {
+    color: #ff0000;
+    display: inline;
+}
+footer {
+    background-color: hsl(275,23%,28%);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 7px;
+}
+#box-container {
+    display: flex;
+    height: 150px;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#box1 {
+    text-align: ;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: ;
+    padding-bottom: 20px;
+    width: 25%;
+    margin-left: 5%;
+    margin-right: ;
+    background-color: hsl(280, 3%, 18%);
+}
+#box2 {
+    text-align: ;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: ;
+    padding-bottom: 20px;
+    width: 25%;
+    margin-left: ;
+    margin-right: ;
+    background-color: hsl(280, 3%, 18%);
+}
+
+.themepurple {
+    color: hsl(275, 23%, 28%);
+}
+.themeblue {
+    color: hsl(194, 28%, 44%);
+}
+.themegreen {
+    color: hsl(81, 40%, 18%);
+}
+.themepink {
+    color: #e28d9a;
+}
+.themegray {
+    color: hsl(280, 3%, 12%)
+}
+
+.collapsible {
+    background-color: #262626;
+    color: #e6e6e6;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  .active, .collapsible:hover {
+    background-color: #262626;
+  }
+  .knowledge-check1 {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #262626;
+  }
