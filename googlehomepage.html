@@ -11,35 +11,43 @@
 
     </header>
     <nav>
-<div class="flex-container">
-    <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
-    <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
-</div>
-<div class="flex-container1">
-    <a href="https://www.google.com/gmail/about/#">Gmail</a>
-    <a href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
-    <a href="#" class="box2">Google Apps</a>
-    <a href="https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F%3Fgws_rd%3Dssl&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Sign in</a>
-</div>
+        <div class="navleft">
+            <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header"
+                class="navleft">About</a>
+            <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US"
+                class="navleft">Store</a>
+        </div>
+        <div class="navright">
+            <a href="https://www.google.com/gmail/about/#" class="navright">Gmail</a>
+            <a href="https://www.google.com/imghp?hl=en&ogbl" class="navright">Images</a>
+            <a href="#" class="navright">Google Apps</a>
+            <a href="https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F%3Fgws_rd%3Dssl&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+                class="navright" id="signin">Sign in</a>
+        </div>
     </nav>
-<!-- everything above this is navigation bar + meta info-->
+    <!-- everything above this is navigation bar + meta info-->
     <main>
+        <div id="main">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-    <div class="buttons">
-        <button type="submit" id="search">Google Search</button>
-        <button type="submit" id="lucky">I'm Feeling Lucky</button>
-    </div>
+        <input type="text" id="searchbar">
+        <div class="buttons">
+            <button type="submit" id="search">Google Search</button>
+            <button type="submit" id="lucky">I'm Feeling Lucky</button>
+        </div>
+        </div>
     </main>
-<!-- everything below this is footer-->
+    <!-- everything below this is footer-->
     <footer>
-<div class="flex-container2">
-    <a href="#">Advertising</a>
-    <a href="#">Business</a>
-    <a href="#">How Search works</a>
-    <a href="#">Privacy</a>
-    <a href="#">Terms</a>
-    <a href="#">Settings</a>
-</div>
+        <div class="footerleft">
+            <a href="#" class="footerleft">Advertising</a>
+            <a href="#" class="footerleft">Business</a>
+            <a href="#" class="footerleft">How Search works</a>
+        </div>
+        <div class="footerright">
+            <a href="#" class="footerright">Privacy</a>
+            <a href="#" class="footerright">Terms</a>
+            <a href="#" class="footerright">Settings</a>
+        </div>
     </footer>
 </body>
 
